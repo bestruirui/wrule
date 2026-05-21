@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS rules (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    group_name TEXT NOT NULL,
+    rule_type TEXT NOT NULL,
+    content TEXT NOT NULL
+);
